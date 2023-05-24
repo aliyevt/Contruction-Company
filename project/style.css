@@ -1,0 +1,1453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  .div1{
+      display: flex;
+      flex-direction: row;
+  }
+  div{
+      margin-left: 20px;
+  }
+  .object{
+      margin-left: 120px;
+      margin-top: 10px;
+  }
+  .a1,.a2,.a3,.a4{
+      color: #ccc;
+      font-size: 11px;
+  }
+  .a1:hover{
+      color: #ffc107;
+      transition: 0.3s;
+  }
+  .a2:hover{
+      color: #ffc107;
+      transition: 0.3s;
+  }
+  .a3:hover{
+      color: #ffc107;
+      transition: 0.3s;
+  }
+  .a4:hover{
+      color: #ffc107;
+      transition: 0.3s;
+  }
+  .btn1{
+      background-color: #FAB700;
+      width: 100px;
+      height: 30px;
+      border: inherit;
+      color: white;
+      font-weight: 500;
+      font-size: 12px;
+      border-radius: 3px;
+      text-decoration: none;
+      margin-top: 10px;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn1:hover{
+      background-color: white;
+      border: 1px solid #FAB700;
+      cursor: pointer;
+      transition: 0.5s;
+      color: black;
+  }
+  .salt{
+      text-align: right;
+      margin-top: -30px;
+      margin-right: 164px;
+  }
+  .line{
+      opacity: 0.2;
+      margin-top: 7px;
+  }
+  .pic{
+      margin-left: 160px;
+      margin-top: 30px;
+      cursor: pointer;
+  }
+  .sand{
+      display: flex;
+      flex-direction: row;
+  }
+  .home{
+      font-family: 'Poppins', sans-serif;
+      color: #FAB700;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 1px; 
+  }
+  .about{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      cursor: pointer;
+      letter-spacing: 1px;
+  }
+  .about:hover{
+      color: #FAB700;
+      transition: 0.3s;
+  }
+  .services{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 1px;
+      cursor: pointer;
+  }
+  .services:hover{
+      color: #FAB700;
+      transition: 0.3s;
+  }
+  ul{
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.dropdown{
+    position: relative;
+   cursor: pointer;
+    padding: 10px;
+}
+.dropdown1{
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+}
+.menu{
+    position: absolute;
+    margin-top: 40px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.change{
+    padding: 15px;
+    width: 140px;
+    color: black;
+}
+.dropdown:hover{
+    color: #FAB700;
+}
+.dropdown1:hover{
+    color: #FAB700;
+}
+.asus{
+    opacity: 0.4;
+    
+}
+.dropdown:hover .menu{
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown1:hover .menu{
+    visibility: visible;
+    opacity: 1;
+}
+.change:hover {
+    background-color: #FAB700;
+    color: white;
+    cursor: pointer;
+}
+
+.contact{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      padding-left: 10px;
+  }
+  .contact:hover{
+      color: #FAB700;
+      transition: 0.3s;
+  }
+  .can{
+  margin: 25px;
+  }
+  .dodge{
+  margin-left: 720px;
+  margin-top: -60px;
+  }
+  .may {
+      background: url("https://preview.colorlib.com/theme/builder/img/banner/home-banner.jpg.webp");
+      width: 1529px; 
+      height: 700px;
+      background-size: cover;
+      margin-left: -10px;
+      margin-top: 15px;
+  }
+  .build{
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      color: white;
+      font-size: 60px;
+      padding-top: 223px;
+      font-weight: 200;
+  }
+  .span1{
+    color: black;
+    font-weight: 200;
+    background-color: #FAB700;
+    border-radius: 4px; 
+  }
+  .p1{
+      color: white;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin-top: 13px;
+  }
+  .btn2{
+      margin-left: 100px;
+      width: 170px;
+      height: 50px;
+      border-radius: 4px;
+      background-color: #222222;
+      color: #FAB700;
+      cursor: pointer;
+      font-family: 'Roboto', sans-serif;
+      border: none;
+      font-weight: 700;
+     margin-left: 660px; 
+     
+     margin-top: 57px;
+  }
+  .btn2:hover{
+      background-color: #FAB700;
+      color: #222222;
+      transition: 0.4s;
+  }
+  .our{
+      font-size: 39px;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      margin-top: 120px;
+  }
+  .p2{
+      color: #777777;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+  }
+  .box{
+      width: 360px;
+      height: 330px;
+      border: 1px solid white;
+      border-radius: 7px;
+  }   
+  .box:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .box1:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .box2:hover{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .box .servic{
+     padding-left: 148px;
+     padding-top: 45px;
+  }
+  .draw{
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 18px;
+  }
+  .lorem{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      color: #777777;
+      margin-top: 20px;
+  }
+  .box1{
+      width: 360px;
+      height: 330px;
+      border: 1px solid white;
+      border-radius: 7px;
+  }   
+  .box1 .servic1{
+      padding-left: 148px;
+      padding-top: 45px;
+   }
+  .draw1{
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 18px;
+  }
+  .lorem1{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      color: #777777;
+      margin-top: 20px;
+  } 
+  .box2{
+      width: 360px;
+      height: 330px;
+      border: 1px solid white;
+      border-radius: 7px;
+  }
+  .box2 .servic2{
+      padding-left: 148px;
+      padding-top: 45px;
+   }
+  .draw2{
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 18px;
+  }
+  .lorem2{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      color: #777777;
+      margin-top: 20px;
+  }
+  .allboxes{
+      display: flex;
+      margin-left: 185px;
+      margin-top: 80px;
+  }
+  .san{
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-size: 39px;
+      margin-top: 110px;
+  }
+  .ipsum{
+      font-family: 'Roboto', sans-serif;
+      color: #777777;
+      text-align: center;
+      margin-top: 15px;
+  }
+  .container5{
+      width: 506.5px;
+      height: 277px;
+      position: absolute;
+      margin-left: 20px;
+  }
+  .LCD{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      margin-top: 14px;
+      line-height: 25px;
+  }
+  .alex{
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .overlay5{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content5{
+      position: absolute;
+      color: black;
+      text-align: center;
+      margin-top: 90px;
+  }
+  .container5:hover .overlay5{
+      opacity: 0.8;
+  }
+  .container6{
+      width: 506.5px;
+      height: 277px;
+      position: absolute;  
+      margin-left: 34.6%;
+  }
+  .overlay6{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content6{
+      position: absolute;
+      color: black;
+      text-align: center;
+      margin-top: 90px;
+  }
+  .container6:hover .overlay6{
+      opacity: 0.8;
+  }
+  .container7{
+      width: 506.5px;
+      height: 277px;
+      position: absolute;  
+      margin-left: 67.9%
+  }
+  .daddario-1{
+    display: flex;
+    margin-left: -20px;
+    margin-top: 125px;
+  }
+  .overlay7{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content7{
+      position: absolute;
+      color: black;
+      text-align: center;
+      margin-top: 90px;
+  }
+  .container7:hover .overlay7{
+      opacity: 0.8;
+  }
+  .container8{
+    width: 506.5px;
+    height: 277px;
+    position: absolute;  
+    margin-top: 10%;
+}
+.overlay8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #FAB700;
+}
+.content8{
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+}
+.container8:hover .overlay8{
+    opacity: 0.8;
+}
+.container9{
+    width: 506.5px;
+    height: 277px;
+    position: absolute;  
+    margin-top: 10%;
+    margin-left: 34.6%;
+}
+.overlay9{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #FAB700;
+}
+.content9{
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+}
+.container9:hover .overlay9{
+    opacity: 0.8;
+}
+.container10{
+    width: 506.5px;
+    height: 277px;
+    position: absolute;  
+    margin-top: 10%;
+    margin-left: 67.9%;
+}
+.overlay10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin-left: 0px;
+    transition: opacity 0.4s ease-in-out;
+    background: #FAB700;
+}
+.content10{
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+}
+.container10:hover .overlay10{
+    opacity: 0.8;
+}
+.daddario{
+      display: flex;
+      margin-left: -20px;
+      margin-top: 70px;
+  }
+  .app{
+      font-family: 'Oswald', sans-serif;
+      font-size: 45px;
+      text-align: center;
+      margin-top: 540px;
+  }
+  .index{
+      font-family: 'Roboto', sans-serif;
+      color: #777777;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .style{
+      margin-left: 120px;
+      margin-top: 50px;
+  }
+  .fly1{
+      margin-left: 30px;
+  }
+  .fly2{
+      margin-left: 15px;
+  }
+  .fly3{
+      margin-left: 15px;
+  }
+  .fly4{
+      margin-left: 15px;
+  }
+  .container{
+      width: 263px;
+      height: 300px;
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 11%;
+  }
+  .div4{
+      display: flex;
+      margin-top: 85px;
+  }
+  .div1{
+      color: #777777;
+  }
+  .div2{
+      color: #777777;
+  }
+  .div3{
+      color: #777777;
+  }
+  .div1:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div2:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div3:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content{
+      position: absolute;
+      margin-left: 20%;
+      margin-top: 20%;
+      color: black;
+      text-align: center;
+  }
+  .container:hover .overlay{
+      opacity: 0.8;
+  }
+  .container1{
+      width: 263px;
+      height: 300px;
+      position: absolute;
+      margin-top: 5%;
+      margin-left:30.5%;
+  }
+  .div41{
+      display: flex;
+      margin-top: 85px;
+  }
+  .div11{
+      color: #777777;
+  }
+  .div21{
+      color: #777777;
+  }
+  .div31{
+      color: #777777;
+  }
+  .div11:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div21:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div31:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .overlay1{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content1{
+      position: absolute;
+      margin-left: 20%;
+      margin-top: 20%;
+      color: black;
+      text-align: center;
+  }
+  .container1:hover .overlay1{
+      opacity: 0.8;
+  }
+  .container2{
+      width: 263px;
+      height: 300px;
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 50%;
+  }
+  .div42{
+      display: flex;
+      margin-top: 85px;
+  }
+  .div12{
+      color: #777777;
+  }
+  .div22{
+      color: #777777;
+  }
+  .div32{
+      color: #777777;
+  }
+  .div12:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div22:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div32:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .overlay2{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content2{
+      position: absolute;
+      margin-left: 20%;
+      margin-top: 20%;
+      color: black;
+      text-align: center;
+  }
+  .container2:hover .overlay2{
+      opacity: 0.8;
+  }
+  .container3{
+      width: 263px;
+      height: 300px;
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 70%;
+  }
+  .div43{
+      display: flex;
+      margin-top: 85px;
+  }
+  .div13{
+      color: #777777;
+  }
+  .div23{
+      color: #777777;
+  }
+  .div33{
+      color: #777777;
+  }
+  .div13:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div23:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .div33:hover{
+      color: black;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .overlay3{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      margin-left: 0px;
+      transition: opacity 0.4s ease-in-out;
+      background: #FAB700;
+  }
+  .content3{
+      position: absolute;
+      margin-left: 20%;
+      margin-top: 20%;
+      color: black;
+      text-align: center;
+  }
+  .container3:hover .overlay3{
+      opacity: 0.8;
+  }
+  .davis{
+      font-family: 'Oswald', sans-serif;
+      font-size: 19px;
+      margin-left: 50px;
+  }
+  .manag{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 9px;
+  }
+  .ethel{
+      margin-top: 20px;
+      margin-left: 40px;
+  }
+  .maria{
+      margin-left: 0px;
+      width: 100%;
+      height: 320px;
+      background-color: #FAB700;
+      margin-top: 583px;
+  }
+  .atv{
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .atv1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; 
+  }
+  .vision{
+      display: flex;
+      margin-left: 140px;
+     padding-top: 60px;
+  }
+  .atv2{
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .com{
+      margin: 50px;
+  }
+  .atv3{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; 
+  }
+  .atv4{
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .atv5{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; 
+  }
+  .atv6{
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .atv7{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; 
+  }
+  .atv8{
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .atv9{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px; 
+  }
+  .features{
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-size: 39px;
+      margin-top: 120px;
+  }
+  .system{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 15px;
+  }
+  .expert{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  .expert:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert:hover .icon{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert:hover .option{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert1{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  
+  .expert2{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  .max{
+      margin: 20px;
+  }
+  .muscle{
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
+  }
+  .expert3{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  .expert3:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert2:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert2:hover .khai-3{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert2:hover .khai-4{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert3:hover .icon9{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert3:hover .option3{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert4{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  .expert4:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert4:hover .icon44{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert4:hover .option4{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert5{
+      width: 361px;
+      height: 207px;
+      border: 1px solid rgb(237, 235, 235);
+      border-radius: 10px;
+  }
+  .expert5:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert5:hover .icon5{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert5:hover .option5{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert1:hover{
+      box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 0.5s;
+  }
+  .expert1:hover .khai{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .expert1:hover .khai-1{
+      color: #FAB700;
+      transition: 0.5s;
+  }
+  .muscle1{
+      display: flex;
+      justify-content:center;   
+  }
+  .min{
+      margin: 20px;
+  }
+  .icon{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .khai-3{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .option{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .khai-1{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .khai-2{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+  .khai-4{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .khai-5{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+  .power{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+  .icon5{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .khai{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .option5{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .power5{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+  .icon44{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .option4{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .power4{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+  .icon9{
+      font-size: 30px;
+      padding-top: 45px;
+      padding-left: 25px;
+  }
+  .option3{
+      margin-top: -35px;
+      margin-left: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+  }
+  .power3{
+      color: #777777;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 20px;
+      margin-left: 45px;
+      font-size: 14px;
+      line-height: 25px;
+  }
+.div699{
+    width: 1519px;
+    height: 520px;
+    background-color: #f9f9ff;
+    margin-left: 0px;
+    margin-top: 90px;
+}
+.div714{
+    width: 555px;
+    height: 223px;
+    border: 1px solid rgba(224, 219, 219, 0.943);
+    margin-left: 163px;
+    border-radius: 9px;
+}
+.div909{
+    width: 555px;
+    height: 223px;
+    border: 1px solid rgba(224, 219, 219, 0.943);
+    margin-left: 35px;
+    border-radius: 9px;
+}
+.div707{
+    display: flex;
+    padding-top: 150px;
+}
+.img-715{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.img-716{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.every-4{
+    display: flex;
+}
+.p718{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-top: 35px;
+}
+.p716{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+    padding-top: 35px;
+}
+.wien{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.wien-1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.p717{
+    margin-left: 160px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.p719{
+    margin-left: 160px;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.every-5{
+    display: flex;
+}
+.div714:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.div909:hover{
+    box-shadow: 0 4px 8px 0 rgba(168, 168, 168, 0.79), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.div714:hover .wien{
+    color: #FAB700;
+    transition: 0.5s;
+}
+.div909:hover .wien-1{
+    color: #FAB700;
+    transition: 0.5s;
+}
+.allImages{
+    margin-left: 40px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-444{
+    opacity: 0.4;
+}
+.img-444:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.img-999{
+    opacity: 0.4;
+}
+.img-999:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.img-777{
+    opacity: 0.4;
+}
+.img-777:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.img-666{
+    opacity: 0.4;
+}
+.img-666:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.img-555{
+    opacity: 0.4;
+}
+.img-555:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.close{
+    width: 1519px;
+    height: 530px;
+    background-color: #222222;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.allGuys{
+    display: flex;
+    margin-left: 40px;
+    padding-top: 119px;
+}
+.trust{
+    color: white;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif; 
+}
+.trust-1{
+    color: #777777;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+}
+.trust-2{
+    color: white;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif; 
+}
+.trust-3{
+    color: #777777;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+}
+.a-num{
+    text-decoration: none;
+    color: #FAB700;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.a-num1{
+    text-decoration: none;
+    color: #FAB700;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.num1{
+    margin-top: 5px;
+}
+.allNum{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.allTrust{
+    margin-left: 155px;
+}
+.allTrust-1{
+     margin-left: 70px;
+}
+.trust-4{
+    color: white;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif; 
+}
+.trust-5{
+    color: #777777;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+}
+.allTrust-2{
+    margin-left: 85px;
+}
+.email{
+    width: 467px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: -20px;
+}
+.btn15{
+    width: 37px;
+    height: 37px;
+    background-color: #FAB700;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+}
+.btn16{
+    margin-top: -38px;
+    padding-left: 389px;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+.copy{
+    color: #777777;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 90px;
+    margin-left: 195px;
+}
+.heart-1{
+    margin-left: 597px;
+    margin-top: -18px;
+}
+.heart-1::after{
+    content: "by";
+    color: #777777;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.a-color{
+    text-decoration: none;
+    color: #FAB700;
+    font-family:  'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 615px;  
+}
+.color-lib{
+    margin-top: -18px;
+}
+.final-close{
+    display: flex;
+}
+.social-1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding-left: 9.5px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.a-social{
+    color: white;
+}
+.a-social1{
+    color: white;
+}
+.sub{
+    margin: 4px;
+}
+
+.social-1:hover{
+    background-color: #FAB700;
+    transition: 0.5s;
+}
+.social-1:hover .a-social{
+    color: black;
+    transition: 0.5s;
+}
+.social-2:hover{
+    background-color: #FAB700;
+    transition: 0.5s;
+}
+.social-2:hover .a-social1{
+    color: black;
+    transition: 0.5s;
+}
+.social-3:hover{
+    background-color: #FAB700;
+    transition: 0.5s;
+}
+.social-3:hover .a-social2{
+    color: black;
+    transition: 0.5s;
+}
+.social-4:hover{
+    background-color: #FAB700;
+    transition: 0.5s;
+}
+.social-4:hover .a-social3{
+    color: black;
+    transition: 0.5s;
+}
+.social-2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding-left: 8px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.a-social2{
+    color: white;
+}
+.a-social3{
+    color: white;
+}
+.social-3{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding-left: 7.4px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.social-4{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding-left: 7px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    padding-left: 450px;
+    padding-top: 77px;
+}
